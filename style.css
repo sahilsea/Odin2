@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #628BB6;
+    color:white;
+    min-height: 100vh;
+
+    
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    background-color:#003D8C;
+    color:white;
+    display: flex;
+    justify-content:space-between ;
+    padding: 20px;
+    align-items: center;
+}
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.highlight{
+    display: flex;
+    background-color: #7085B5;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+
+}
+.left-highlight{
+    flex:1;
+}
+.right-highlight{
+    flex:1;
+    text-align: right;
+}
+.right-highlight img{
+    width: 50%;
+    border-radius: 5px;
+
+}
+.awesome-text{
+    font-size: 24px;
+    font-weight: 900;
+}
+.sub-text{
+    font-size: 14px;
+    color: rgb(218, 215, 215);
+}
+button{
+    background-color: #ACA1B6;
+    padding: 5px;
+    width: 120px;
+    margin: 8px;
+
+}
+.random-info{
+    display: flex;
+    flex-direction: column;
+    background-color: #FD985B;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 10px;
+}
+.info-header{
+    font-size: large;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.lower-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.random-image-info{
+    display: inline;
+
+
+}
+.box{
+    /* background-color: #765A7C; */
+    padding: 0px;
+    margin: 1px;
+    text-align: center;
+
+}
+.box .text{
+    text-align: center;
+    padding: 5px;
+}
+.box img{
+    width: 250px;
+    border-radius: 10px;
+
+}
+.quote{
+    background-color: #31557A;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.quotee{
+    align-self: flex-start;
+}
+.credit{
+    align-self: flex-end;
+    text-align:right;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #003D8C;
+
+}
+
+
+
